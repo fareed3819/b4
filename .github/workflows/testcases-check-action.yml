@@ -20,8 +20,7 @@ jobs:
         java-version: 11
       
    
-    - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
+
 #       with:
 #         postgresql version: 10.12
 #         postgresql db: postgres
@@ -30,8 +29,8 @@ jobs:
 #     - name: Build with Maven
 #       run: mvn clean test
 #       working-directory: 'services/user-management/'
-#     - name: sonar 
-#       run: mvn verify sonar:sonar 
-#       working-directory: 'services/user-management/'
+    - name: sonar 
+      run: mvn verify sonar:sonar 
+      working-directory: 'services/user-management/'
 
       
