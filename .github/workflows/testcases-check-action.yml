@@ -26,3 +26,5 @@ jobs:
         postgresql password: postgres
     - name: Build with Maven
       run: mvn clean test
+      working-directory: 'services/user-management/'
+      
