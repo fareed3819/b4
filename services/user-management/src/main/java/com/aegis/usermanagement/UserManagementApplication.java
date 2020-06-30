@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 public class UserManagementApplication {
 
 	public static void main(String[] args) {
+//0000000000
 		SpringApplication.run(UserManagementApplication.class, args);
 	}
 
