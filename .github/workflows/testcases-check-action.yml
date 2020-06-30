@@ -28,4 +28,6 @@ jobs:
     - name: Build with Maven
       run: mvn clean test
       working-directory: 'services/user-management/'
+    - name: sonar 
+      run: mvn verify sonar:sonar 
       
