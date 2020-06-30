@@ -26,9 +26,9 @@ jobs:
 #         postgresql db: postgres
 #         postgresql user: postgres
 #         postgresql password: postgres
-    - name: Build with Maven
-      run: mvn clean test
-      working-directory: 'services/user-management/'
+#     - name: Build with Maven
+#       run: mvn clean test
+#       working-directory: 'services/user-management/'
     - name: sonar 
       run: mvn verify sonar:sonar 
       working-directory: 'services/user-management/'
